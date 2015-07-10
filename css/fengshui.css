@@ -10,8 +10,20 @@
 }
 
 .step-one {
-	height: 420px; 
+	height: 464px; 
 	background-color: #fff;
+}
+
+.step-one .how-it-works-right {
+    width: 35%;
+    margin-right: 100px;
+    float: right;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.step-one .how-it-works-right img {
+	width: 80%;
 }
 
 .step-one img {
@@ -24,18 +36,39 @@
 	margin-top: 50px;
 }
 
-.step-one img, .step-two img, .step-three img {
-	width: 25%;
-}
 
 .step-two {
-	height: 420px; 
-	background-color: #f6f6f7;
+  height: 363px;
+  background-color: #f6f6f7;
+}
+
+.step-two .how-it-works-left {
+	  width: 35%;
+	  float: left;
+	  margin-left: 10%;
+	  margin-top: -50px;
+	  margin-right: 100px;
+}
+
+.step-two .how-it-works-right {
+  width: 35%;
+  float: right;
+  margin-top: 100px;
+  margin-right: 100px;
+  margin-left: 0px;
 }
 
 .step-three {
-	height: 420px; 
+	height: 527px; 
 	background-color: #fff;
+}
+
+.step-three .how-it-works-right {
+	width: 35%;
+	float: left;
+	margin-top: -40px;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .how-it-works-left {
