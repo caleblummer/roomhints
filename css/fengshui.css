@@ -9,19 +9,49 @@
 	background-size: cover;
 }
 
-.step-one {height: 420px; background-color: #fff;}
-.step-one img {margin-top: 50px;}
+.step-one {
+	height: 420px; 
+	background-color: #fff;
+}
+
+.step-one img {
+	margin-top: 50px;
+}
+
 /*.step-two img {margin-top: 50px;}*/
-.step-three img {margin-top: 50px;}
-.step-one img, .step-two img, .step-three img {width: 25%;}
-.step-two {height: 420px; background-color: #f6f6f7;}
-.step-three {height: 420px; background-color: #fff;}
-.how-it-works-left {
+
+.step-three img {
+	margin-top: 50px;
+}
+
+.step-one img, .step-two img, .step-three img {
 	width: 25%;
-  	float: left;
-  	margin-left: 20%;
- 	margin-top: 100px;
-	margin-right: 100px;
+}
+
+.step-two {
+	height: 420px; 
+	background-color: #f6f6f7;
+}
+
+.step-three {
+	height: 420px; 
+	background-color: #fff;
+}
+
+.how-it-works-left {
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+.how-it-works-right {
+  width: 35%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 100px;
+  margin-right: 100px;
 }
 
 .publication-sections-fengshui {
@@ -30,7 +60,9 @@
 	background-color: #eae9ee;
 }	
 
-.publication-sections-fengshui img {width: 12%;}
+.publication-sections-fengshui img {
+	width: 12%;
+}
 
 .fengshui-banner {
 	background-image: url('../images/top-banner.jpg');
