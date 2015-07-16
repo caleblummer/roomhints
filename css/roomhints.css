@@ -613,6 +613,56 @@ footer {
 
 
 
+/* responsive bugs stuff */
+@media screen and (max-width: 768px) {
+  .carousel-caption {
+    width: 100%;
+    font-size: 15px;
+  }
+  .hints-ul{
+    margin-top: 0px;
+  } 
+  .hints-ul li {
+    width: 30%;
+  }
+  .publication-sections {
+    height: 350px;
+    padding-top: 0px;
+  }
+  .publication-sections img {
+    width: 24%;
+  }
+  .bottom-banner {
+    height: 450px;
+    padding-top: 50px;
+    background-size: cover;
+  }
+  .contact-section {
+    padding-top: 0px;
+    height: 520px;
+  }
+  .desktop-only {
+    display: none;
+  }
+  .top-banner {
+    height: 450px;
+    padding-top: 40px;
+  }
+  #header-top {
+    display: none;
+  }
+  .fengshui-header {
+    height: 450px;
+    padding-top: 40px;
+  }
+
+  .mobile-banner {
+    height: 450px !important;
+    padding-top: 40px !important;
+  }
+
+} 
+
 
 
 

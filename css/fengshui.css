@@ -9,6 +9,66 @@
 	background-size: cover;
 }
 
+.bedroom-header {
+	background-image: url('../images/bedroom-header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 676px;
+	color: white;
+	padding-top: 100px;
+	background-size: cover;
+}
+
+.outdoor-header {
+	background-image: url('../images/outdoor-header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 676px;
+	color: white;
+	padding-top: 100px;
+	background-size: cover;
+}
+
+.livingroom-header {
+	background-image: url('../images/livingroom-header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 676px;
+	color: white;
+	padding-top: 100px;
+	background-size: cover;
+}
+
+.artworks-header {
+	background-image: url('../images/artworks-header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 676px;
+	color: white;
+	padding-top: 100px;
+	background-size: cover;
+}
+
+.office-header {
+	background-image: url('../images/office-header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 676px;
+	color: white;
+	padding-top: 100px;
+	background-size: cover;
+}
+
+.midcentury-header {
+	background-image: url('../images/midcentury-header.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 676px;
+	color: white;
+	padding-top: 100px;
+	background-size: cover;
+}
+
 .step-one {
 	height: 464px; 
 	background-color: #fff;
@@ -106,4 +166,121 @@
 	padding-top: 150px;
 	background-size: cover;
 }
+
+
+@media screen and (max-width: 768px) {
+
+	.step-one {
+	  height: 529px;
+	  background-color: #fff;
+	}
+	
+	.step-one .how-it-works-left {
+	  width: 100%;
+	  float: left;
+	  margin-left: 10%;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	}
+	
+	.step-one .how-it-works-right img {
+	  width: 250px;
+	  display: none;
+	}
+
+	.step-one img {
+	  margin-top: 7px;
+	}
+
+	.step-one .how-it-works-right {
+	  width: 63%;
+	  margin-top: 0px;
+	  margin-left: 0px;
+	  margin: auto;
+	  float: none;
+  	}
+	
+	.step-two {
+	  height: 373px;
+	  background-color: #f6f6f7;
+	}
+	
+	.step-two .how-it-works-left {
+	  display: none;
+	}
+	
+	.step-two .how-it-works-right {
+	  width: 95%;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	}
+	
+	.step-three img {
+	  margin-top: 53px;
+	}
+	
+	.step-three .how-it-works-right img {
+	  width: 302px;
+	  margin-left: 50px;
+	  display: none;
+	}
+	
+	.step-three .how-it-works-left {
+	  width: 85%;
+	  float: left;
+	  margin-left: 10%;
+	  margin-top: 0px;
+	}
+
+	.step-three .how-it-works-right {
+	  width: 83%;
+	  float: left;
+	  margin-top: -36px;
+	  margin-left: 40px;
+	  margin-right: 0px;
+	}
+	
+	.fengshui-banner {
+	  background-image: url('../images/top-banner.jpg');
+	  background-position: center center;
+	  background-repeat: no-repeat;
+	  height: 485px;
+	  color: white;
+	  padding-top: 30px;
+	  background-size: cover;
+	}
+	
+	.publication-sections-fengshui {
+	  height: 400px;
+	  padding-top: 0px;
+	  background-color: #eae9ee;
+	}
+	
+	.publication-sections-fengshui img {
+	  width: 22%;
+	}
+
+	.step-one {
+	  height: 279px;
+	  background-color: #fff;
+	  text-align: center;
+	}
+
+	.step-two {
+	  height: 373px;
+	  background-color: #f6f6f7;
+	  text-align: center;
+	}
+
+	.step-three {
+	  height: 237px;
+	  background-color: #fff;
+	  text-align: center;
+	}
+
+}
+
+
+
+
 
