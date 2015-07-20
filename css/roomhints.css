@@ -639,10 +639,12 @@ footer {
   }
   .contact-section {
     padding-top: 0px;
-    height: 520px;
+    height: 1240px;
   }
   .desktop-only {
+	 /*
     display: none;
+  	*/
   }
   .top-banner {
     height: 450px;
