@@ -179,6 +179,35 @@
 	text-align: center;
 }
 
+.twitter-share {
+	background-color: #4099FF;
+	color: white;
+    padding: 10px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.twitter-share img{
+	width: 20px;
+    margin-right: 10px;
+}
+
+.facebook-share {
+	background-color: #3b5998;
+	color: white;
+    padding: 10px 20px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.facebook-share img{
+	width: 20px;
+	margin-right: 10px;
+}
+
 @media screen and (max-width: 480px){
 	.section-heading-vip {
 	    text-align: center;
