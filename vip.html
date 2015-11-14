@@ -123,6 +123,20 @@
     
     <div class="vip-container">
         <div class="container">
+             <!-- VIP Updates  -->
+                <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                       <img src="images/iPhoneappvideo.jpg" />
+                    </button>
+                <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                 <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/8FYlGAESXj4?rel=0" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+            <!-- VIP Updates  -->            
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-6">
                     <h3 class="vip-date">October 2015</h3>
@@ -396,7 +410,21 @@
                 </div>
             </div>
             
-            
+            <!-- VIP Updates  -->
+            <div class="modal fade" id="recommendModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="recommend-modal-content">
+                    <div class="recommend-modal-header">
+                    </div>
+                    <div class="modal-body">
+                        <p>Thanks for recommending a designer. <br /><br />
+                        Keep checking www.roomhints.com/vip to see if 
+                        your designer signs up! </p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <!-- VIP Updates  -->
             
             <div class="myVIPContent">
     	       <h3 class="popover-h3">Sweet! We will email you details to reserve your spot! <br />
@@ -413,7 +441,7 @@
               <div class="form-group">
                 <input type="email" class="form-control recommend-input" id="exampleInputEmail1" placeholder="Enter Designer Name Here">
               </div>
-              <button type="submit" class="recommend-designer btn btn-default">Recommend a Designer</button>
+               <button type="submit" id="recommendModalTriggerEvent" class="recommend-designer btn btn-default" data-toggle="modal" data-target="#recommendModal">Recommend a Designer</button>     
             </form>
         </div>    
     </div>
@@ -435,6 +463,16 @@
         });
     });
 	</script>
+    <script>
+        $(document).ready(
+        function() {
+            $("#recommendModalTriggerEvent").click(function(e) {
+                e.preventDefault();
+                console.log(1);
+                $("#recommendModal").fadeToggle();
+            });
+        }); 
+    </script>
     <script>
         $('.myVIPContent').hide();
         $('[data-toggle=popover]').popover({
